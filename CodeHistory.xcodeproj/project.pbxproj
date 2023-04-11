@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7427F98D29E571E90074A8B0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427F98C29E571E90074A8B0 /* Question.swift */; };
+		7427F99129E575640074A8B0 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427F99029E575640074A8B0 /* ChoiceTextView.swift */; };
 		7476A8BE29E04CA200FFF20D /* CodeHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476A8BD29E04CA200FFF20D /* CodeHistoryApp.swift */; };
 		7476A8C029E04CA200FFF20D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476A8BF29E04CA200FFF20D /* ContentView.swift */; };
 		7476A8C229E04CA300FFF20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7476A8C129E04CA300FFF20D /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7427F98C29E571E90074A8B0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7427F99029E575640074A8B0 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		7476A8BA29E04CA200FFF20D /* CodeHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7476A8BD29E04CA200FFF20D /* CodeHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHistoryApp.swift; sourceTree = "<group>"; };
 		7476A8BF29E04CA200FFF20D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				7476A8BF29E04CA200FFF20D /* ContentView.swift */,
 				7476A8C129E04CA300FFF20D /* Assets.xcassets */,
 				7476A8C329E04CA300FFF20D /* Preview Content */,
+				7427F98C29E571E90074A8B0 /* Question.swift */,
+				7427F99029E575640074A8B0 /* ChoiceTextView.swift */,
 			);
 			path = CodeHistory;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7427F98D29E571E90074A8B0 /* Question.swift in Sources */,
 				7476A8C029E04CA200FFF20D /* ContentView.swift in Sources */,
+				7427F99129E575640074A8B0 /* ChoiceTextView.swift in Sources */,
 				7476A8BE29E04CA200FFF20D /* CodeHistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
