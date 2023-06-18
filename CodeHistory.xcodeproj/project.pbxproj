@@ -19,6 +19,8 @@
 		74BE64C72A3B916400B90A70 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE64C62A3B916400B90A70 /* QuestionView.swift */; };
 		74D364A62A36533000424341 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D364A52A36533000424341 /* Game.swift */; };
 		74E17C5C2A3A40420097FF19 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E17C5B2A3A40420097FF19 /* WelcomeView.swift */; };
+		74E9608C2A3F38DF00599442 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9608B2A3F38DF00599442 /* ScoreView.swift */; };
+		74E9608E2A3F3E4500599442 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9608D2A3F3E4500599442 /* ScoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		74BE64C62A3B916400B90A70 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		74D364A52A36533000424341 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		74E17C5B2A3A40420097FF19 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		74E9608B2A3F38DF00599442 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		74E9608D2A3F3E4500599442 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				74BE64C42A3B824300B90A70 /* GameViewModel.swift */,
+				74E9608D2A3F3E4500599442 /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 				7427F99029E575640074A8B0 /* ChoiceTextView.swift */,
 				74E17C5B2A3A40420097FF19 /* WelcomeView.swift */,
 				74BE64C62A3B916400B90A70 /* QuestionView.swift */,
+				74E9608B2A3F38DF00599442 /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,10 +194,12 @@
 				74BE64C72A3B916400B90A70 /* QuestionView.swift in Sources */,
 				74BE64C52A3B824300B90A70 /* GameViewModel.swift in Sources */,
 				7427F98D29E571E90074A8B0 /* Question.swift in Sources */,
+				74E9608E2A3F3E4500599442 /* ScoreViewModel.swift in Sources */,
 				74E17C5C2A3A40420097FF19 /* WelcomeView.swift in Sources */,
 				74D364A62A36533000424341 /* Game.swift in Sources */,
 				7476A8C029E04CA200FFF20D /* GameView.swift in Sources */,
 				74A61B352A3A512C0068DA4F /* BottomTextView.swift in Sources */,
+				74E9608C2A3F38DF00599442 /* ScoreView.swift in Sources */,
 				74A61B332A3A4F7E0068DA4F /* GameColor.swift in Sources */,
 				7427F99129E575640074A8B0 /* ChoiceTextView.swift in Sources */,
 				7476A8BE29E04CA200FFF20D /* CodeHistoryApp.swift in Sources */,
